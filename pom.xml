@@ -79,7 +79,9 @@
 		</pluginRepository>
 
 	</pluginRepositories>
-
+    
+    <!-- invoke asciidoctor with mvn generate resources -->
+    
 	<build>
 		<plugins>
 			<plugin>
