@@ -28,7 +28,8 @@ Note that the standard admin user is named `boss` and has the password `123`.
 
 ### Java 11
 
-https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot[Download] the binaries, install. Make sure the console shows something like this:
+https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot[Download] the binaries, install. 
+Make sure the console shows something like this:
 
 [source, bash]
 ----
