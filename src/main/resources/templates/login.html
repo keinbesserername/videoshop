@@ -18,6 +18,10 @@
                     <label th:text="#{login.password}" for="password">Password</label>
                     <input type="password" id="password" name="password"/> <br/>
                 </div>
+                <div class="field">
+                    <label th:text="#{login.email}" for="email">Email</label>
+                    <input type="email" id="email" name="email"/> <br/>
+                </div>
 
                 <button type="submit" th:text="#{login.login}" class="ui button">Log in</button>
             </form>
