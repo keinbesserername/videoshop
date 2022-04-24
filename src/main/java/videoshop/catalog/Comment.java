@@ -41,22 +41,18 @@ public class Comment implements Serializable {
 
 	private String text;
 	private int rating;
-	private String email;
+	
 	private LocalDateTime date;
 
 	@SuppressWarnings("unused")
 	private Comment() {}
 
-	public Comment(String text, int rating, LocalDateTime dateTime, String email) {
+	public Comment(String text, int rating, LocalDateTime dateTime) {
 
-		this.email = email;
+
 		this.text = text;
 		this.rating = rating;
 		this.date = dateTime;
-	}
-
-	public String getEmail(){
-		return email;
 	}
 
 	public long getId() {
