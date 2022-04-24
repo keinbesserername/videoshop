@@ -59,6 +59,9 @@ class RegistrationForm {
 		this.address = address;
 	}
 
+	public String getEmail(){
+		return email;
+	}
 	public String getName() {
 		return name;
 	}
