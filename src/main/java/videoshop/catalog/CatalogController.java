@@ -113,7 +113,7 @@ class CatalogController {
 		Integer getRating();
 
 		default Comment toComment(LocalDateTime time) {
-			return new Comment(getComment(), getRating(), time);
+			return new Comment(getComment(), getRating(), time, null);
 		}
 	}
 }
