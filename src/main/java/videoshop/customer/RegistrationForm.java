@@ -49,10 +49,11 @@ import org.springframework.validation.Errors;
  */
 class RegistrationForm {
 
-	private final @NotEmpty String name, password, address;
+	private final @NotEmpty String name, password, address, email;
 
-	public RegistrationForm(String name, String password, String address) {
+	public RegistrationForm(String name, String password, String address, String email) {
 
+		this.email = email;
 		this.name = name;
 		this.password = password;
 		this.address = address;
